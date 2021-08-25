@@ -324,7 +324,7 @@ select:hover{
   }
    
   .blue{
-    color: #4992ca;
+    color: #4992ca; /* to set blue color*/
   }
   
   .buy-now{
@@ -396,7 +396,7 @@ select:hover{
     }
     
     .black{
-      color:#424242
+      color:#424242  /* black color */
     }
 
     .pk-masters{
@@ -408,11 +408,11 @@ select:hover{
        margin-right: 20px;
     }
     .white{
-      color:#fff
+      color:#fff    /* for white color*/
     }
 
      .hg{
-      color:#8a8a8a;
+      color:#8a8a8a;   /* for gray part*/
      }
     
 /*
