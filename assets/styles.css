@@ -1,0 +1,741 @@
+
+body{
+    
+    color: #7f8c8d;
+    font-size: 16px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    margin-top: 20px;
+   
+}
+
+/* navbar*/
+
+nav{
+  background-color: #fff;
+  margin-top: -20px;
+  
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.navbar > ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-top: 0%;
+  margin-bottom: 0%; 
+}
+
+
+.navbar > ul > li{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  margin-right: 25px;  
+}
+
+.edyst-logo{
+text-align: left;
+height: 30px;
+margin-top: auto;
+margin-bottom:auto;
+width: auto;
+display: block;
+}
+
+
+.flag{
+  height:24px;
+  width: auto;
+  text-align: right;
+  vertical-align: middle;
+}
+
+
+.nav-drop{
+  border:none;
+  outline:0px;
+  color: #8a8a8a;
+}
+
+
+select{
+  border:none;
+  color: #8a8a8a;
+}
+
+
+select:hover{
+  cursor: pointer;
+  color: rgb(70, 68, 68);
+}
+
+
+.nav-btn{
+  text-decoration: none;
+  color: #8a8a8a;
+  border: none;
+  height: 24px;
+  
+}
+
+
+.nav-btn:hover{
+  color: rgb(70, 68, 68);
+}
+
+
+.nav-btn2{
+  height: 24px;
+  background-color: rgb(243, 106, 56);
+  min-width: 120px;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 2px;
+}
+
+
+.nav-btn2:hover{
+  color: rgb(70, 68, 68);
+}
+
+
+  /* Home Page*/
+.Homepage {
+    position:relative;
+    background:url(/assets/bg.jpg) #000000b3 ;
+    background-blend-mode: multiply;
+    margin-right: 20px;
+    height:auto;
+  }
+  
+  
+
+  .C1 {
+    background-color:#000000b3 ;
+  }
+  
+  .heading_part{
+    color:white;
+    margin-left: 100px;
+    padding: 60px 0px;
+ 
+  }
+
+
+  .first_h{
+    font-size:90px;
+  }
+  
+  .sec_h {
+    font-size:33px;
+    
+  }
+  
+  .btn-blue{
+     display:block;
+    border:none;
+    background-color:#4992ca;
+    color: #fff;
+    padding: 15px 56px;
+  }
+  
+  
+  .btn-trans {
+     display:block;
+     height:60px;
+    background-color:#ffffff00;
+    color:#fff;
+    padding: 15px 32px;
+  }
+  
+  .btn-white{
+    border-radius:15px;
+    display:block;
+    outline:none;
+    padding: 15px 32px;
+  }
+  
+  .Pocket_Monster{
+    background-color: #4992ca;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    margin-right:20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 200px 30px 200px ;
+  }
+
+  .p_head{
+    font-size: 45px;
+  }
+
+  .htwo{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+  }
+
+  .hfour{
+    font-size: 30px;  /* for h4 */
+  }
+
+  .container{
+    display:flex;
+    
+  }
+  .container2{
+    display:flex;
+    column-gap: 50px;
+    
+  }
+   
+  .fas{
+     font-size: 45px;
+  }
+
+  .stats{
+    font-family: Avenir-Next,Roboto,sans-serif;
+    text-align:center;
+    color:#000000b3;
+    padding: 10px 200px 30px 200px;
+  }
+
+  .head{
+    text-align: center;
+  }
+
+  .p-year-revealed{
+    padding:10px 200px 30px 200px;
+  }
+  .p-img{
+    height: 150px;
+    width: 150px;
+    line-height: 120px;
+    margin-top: 20px;
+  }
+
+  .l-img{
+    height: 50px;
+    width: 160px;
+    margin-top: -20px;
+  }
+
+  .hcol{
+    margin-top: -30px;
+    font-size: 30px;
+  }
+
+.bottom-head{
+  margin-top: -40px;
+}
+ 
+.row-one{
+  display:flex;
+  column-gap:50px;
+  margin-top:-40px;
+}
+.rows{
+  display:flex;
+  column-gap:50px;
+  margin-top:30px;
+}
+ .col-p{
+   margin-top:50px;
+   text-align: justify;
+ }
+
+ .q-ans{
+  background-color: #4992ca;
+  font-family: Avenir-Next,Roboto,sans-serif;
+  margin-right:20px;
+  color: #fff;
+  text-align: justify;
+  padding: 10px 200px 30px 200px ;
+ }
+
+ .h-q-ans{
+   font-size: 45px;
+   text-align: center;
+ }
+ 
+  .pk-battles{
+    display:flex;
+    margin:-20px;
+    column-gap: 10px;
+  }
+
+ table, th, td {
+   border:1px solid;
+   border-color: #8a8a8a;
+   
+ }
+  table{
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+  }
+
+  th, td{
+    padding: 10px 10px 10px 10px;
+  }
+  .table{
+    align-items: center;
+    padding: 10px 200px 30px 270px ;
+  }
+  
+  .pk-hfour{
+     color: black;
+     margin-top: -20px;
+     text-align: center;
+  }
+    
+  .sec-1{
+    float: left;
+    flex:1;
+  }
+  .sec-2{
+    float: left;
+    flex:2;
+  }
+  .pk-hf, .l-para{
+    color: black;
+  }
+  
+  th{
+    color: black;
+  }
+
+  .foot-buy{
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+   
+  .blue{
+    color: #4992ca;
+  }
+  
+  .buy-now{
+    background-color: #424242;
+    margin-top: 20px;
+    padding: 10px 200px 30px 270px;
+    margin-right:20px;
+    
+  }
+  .buy-sec{
+    color:#fff;
+    text-align: center;
+  
+    
+  }
+   
+  .pk-htwo{
+    font-size: 45px;
+  }
+
+
+  .buy-btn-trans {
+    display:block;
+    height:50px;
+    width:250px;
+   background-color:#ffffff00;
+   color:#fff;
+   padding: 15px 42px;
+   border-color: #fff;
+   margin-left: 380px;
+   margin-top: -20px;
+   margin-bottom: 50px;
+  
+ }
+ 
+ .cards-head{
+   font-size: 45px;
+   text-align: center;
+   color:#8a8a8a;
+ }
+
+ .card-section{
+    margin-top: -20px;
+    justify-content: center;
+    
+ }
+
+  .card-body{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-top: 16px solid #4992ca;
+    max-width: 18%; 
+    align-items: center;
+    border-collapse: collapse;
+    margin-left: 41%;
+    margin-right: 40%;
+    margin-top: -30px;
+    margin-bottom:10px;
+  }
+     .card-p1{
+       text-align: center;
+       background:rgba(0, 0, 0, 0.03);
+       margin-top:-21px;
+     }
+
+    .card-p2{
+      margin-top: -16px;
+      padding: 16px;
+      text-align:center;
+    }
+    
+    .black{
+      color:#424242
+    }
+
+    .pk-masters{
+      padding: 10px 200px 30px 200px;
+      background-color: #4992ca;
+      font-family: Avenir-Next,Roboto,sans-serif;
+       text-align:center;
+       color: #fff;
+       margin-right: 20px;
+    }
+    .white{
+      color:#fff
+    }
+
+     .hg{
+      color:#8a8a8a;
+     }
+    
+/*
+ card generation
+
+*/
+.crd-p1{
+  
+  background:rgba(0, 0, 0, 0.03);
+  margin-top:-27px;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.crd-p2{
+  padding: 16px;
+  margin-top:-18px;
+}
+
+.crd-sub-h{
+  font-weight: 700;
+  height: 45px;
+  color: #3c3333;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.gn-card-body{
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 16px solid #4992ca;
+  max-width: 50%; 
+  align-items: center;
+  border-collapse: collapse;
+  margin: 0;
+  max-height: auto;
+  
+}
+
+.gn-crd-row{
+  display: flex;
+  column-gap: 20px;
+  padding: 10px 250px 30px 300px;
+}
+.pk-email {
+	margin: 0;
+	padding: 50px;
+	background-color:#fff;
+	font-family: Avenir-Next,Roboto,sans-serif;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.btn-submit {
+	background: rgba(0,0,0,0);
+	border: 1px white solid;
+	color: white;
+	padding: 10px;
+	width: 200px;
+}
+.pk-em{
+  width:300px;
+  height:34px
+  
+}
+
+.pk-games-row{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 10px 200px 30px 250px ;
+  column-gap: 3px;
+  margin-top: -20px;
+}
+
+.col{
+  flex:1;
+  text-align: center;
+ 
+}
+
+.pk-btn{
+  padding: 0px 550px 30px 680px ; 
+  margin-top: -20px;
+}
+
+
+/* designer */
+
+
+.pk-designers{
+  background-color: #4992ca;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+.pk-d-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pk-d{
+  max-width: 350px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.d-img{
+  border-radius: 50%;
+  max-width: 50%;
+}
+.nm{
+  color: #fff;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+
+/* logos*/
+
+
+.pk-logos{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.pk-logo-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#f{
+  margin:20px 80px 20px 80px;
+}
+
+.logo-img{
+  max-width: 160px;
+}
+
+.center{
+  text-align:center;
+  margin-top:-20px;
+}
+
+/*Know more*/
+
+
+.know-more{
+  background-color: #4992ca;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  margin-right: 20px;
+}
+.click-here{
+ color: #fff;
+  border: 2px solid #fff;
+  background-color: #0000;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+ 
+}
+
+/* Footer*/
+
+
+.footer{
+  background-color:black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right:20px;
+}
+.pk-foot-cont{
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.last-head{
+  margin-bottom: 10px;
+}
+.l1{
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.l1:hover{
+  text-decoration:underline;
+}
+.l2{
+  text-decoration: none;
+}
+.l2 > .fab{
+  color: #fff;
+  margin:10px 10px 20px 10px;
+  height: 20px;
+  width: auto;
+  
+}
+
+/*  media queries used here for responsive */
+
+ @media (min-width: 400px) and (max-width:1040px){
+  section{
+  background-color:#fff;
+  margin:auto;
+  padding:0;
+  }
+   img{
+     width:100%;
+     height:auto;
+   }
+  .Homepage{
+    margin:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    .heading_part{
+      margin-left: 0px;
+      padding-left: 10px;
+    }
+  
+    .Pocket_Monster{
+      margin:auto;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .stats{
+      margin:auto;
+      padding-left:10px;
+      padding-right: 10px;
+    }
+    
+    .p-img{
+      width:auto;
+      padding-left: 0px;  
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .l-img{
+      width:auto;
+      padding-left: 0px;  
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .row-one , .rows{
+      column-gap: 3px;
+    }
+    
+    .col-p{
+      text-align: justify;
+      margin: 0;
+      padding: 0px;
+    }
+
+    .q-ans{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .table{
+      margin: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .buy-now{
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 0;
+    }
+
+    .buy-btn-trans{
+      margin: auto;
+    }
+
+    .card-section{
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0px;
+    }
+
+    .pk-masters{
+      margin-left:0px;
+      margin-right:0px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .gn-crd-row{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .pk-games{
+      padding:auto;
+    }
+
+    .pk-games-row{
+      padding-left: 10px;
+      padding-right: 10px;
+      height: auto;
+    }
+
+  
+  }
